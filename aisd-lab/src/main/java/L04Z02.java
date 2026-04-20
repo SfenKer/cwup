@@ -3,6 +3,12 @@ import static java.util.Arrays.copyOf;
 import static java.util.concurrent.ThreadLocalRandom.current;
 import static java.util.stream.IntStream.range;
 
+/*
+ * Insertion Sort Algorithm
+ * - O(n²) - występuje, gdy tablica jest posortowana odwrotnie
+ * - O(n²) - statystycznie dla losowych danych algorytm wykonuje n²/4 porównań i zamian
+ * - O(n) - w przypadku gdy dane są już posortowane
+ */
 void main() {
 
     final var size = 50;

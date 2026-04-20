@@ -3,6 +3,12 @@ import static java.util.Arrays.copyOf;
 import static java.util.concurrent.ThreadLocalRandom.current;
 import static java.util.stream.IntStream.range;
 
+/*
+ * Bubble Sort Algorithm
+ * - O(n²) w przypadku gdy dane są w odwrotnej kolejności
+ * - O(n²) w przypadku gdy dane są w losowej kolejności
+ * - O(n) w przypadku gdy dane są już posortowane
+ */
 void main() {
 
     final var size = 50;
